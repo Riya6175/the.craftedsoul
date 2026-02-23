@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Heart, Palette, Star, Flower2 } from "lucide-react";
 import Layout from "../components/Layout"
-// import aboutImage from "../assets/about-crafting.jpg";
+import aboutImage from "../assets/resininsta/about-crafting.png";
 import { WHATSAPP_LINK, INSTAGRAM_LINK } from "../data/product";
 import { MessageCircle, Instagram } from "lucide-react";
 
@@ -40,11 +40,11 @@ const About = () => {
               viewport={{ once: true }}
               className="rounded-2xl overflow-hidden"
             >
-              {/* <img
+              <img
                 src={aboutImage}
                 alt="Artist crafting handmade resin jewellery at The Crafted Soul workshop"
                 className="w-full h-auto object-cover"
-              /> */}
+              />
             </motion.div>
 
             <motion.div

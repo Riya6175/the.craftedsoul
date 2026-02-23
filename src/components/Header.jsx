@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../assets/resininsta/logo.png";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -18,13 +19,16 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className="flex flex-col items-center">
-            <span className="font-display text-xl md:text-2xl font-semibold tracking-wide text-foreground">
-              The Crafted Soul
-            </span>
-            <span className="text-[10px] md:text-xs tracking-[0.2em] uppercase text-muted-foreground font-body">
-              Handmade Resin Jewellery
-            </span>
+         <Link to="/" className="flex items-center gap-3">
+            <img src={logo} alt="The Crafted Soul logo" className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover" />
+            <div className="flex flex-col">
+              <span className="font-display text-lg md:text-xl font-semibold tracking-wide text-foreground leading-tight">
+                The Crafted Soul
+              </span>
+              <span className="text-[9px] md:text-[10px] tracking-[0.2em] uppercase text-muted-foreground font-body">
+                Handmade Resin Jewellery
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}

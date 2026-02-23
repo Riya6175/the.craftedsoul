@@ -18,17 +18,17 @@ const fadeUp = {
 
 const testimonials = [
   {
-    name: "Priya S.",
+    name: "Shrishti",
     text: "Absolutely in love with my floral earrings! They're so delicate and unique. Everyone asks me where I got them!",
     rating: 5,
   },
   {
-    name: "Ananya M.",
+    name: "Jiya",
     text: "The custom pendant I ordered for my sister's birthday was perfect. The attention to detail is incredible.",
     rating: 5,
   },
   {
-    name: "Riya K.",
+    name: "Falguni",
     text: "Beautiful packaging and the bracelet looked even better in person. Will definitely order again!",
     rating: 5,
   },
