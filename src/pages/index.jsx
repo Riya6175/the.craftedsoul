@@ -5,7 +5,7 @@ import { MessageCircle, Instagram, Leaf, Palette, Heart, Sparkles, Star, Quote }
 import Layout from "../components/Layout";
 import ProductCard from "../components/ProductCard";
 import { products, WHATSAPP_LINK, INSTAGRAM_LINK } from "../data/product";
-// import heroImage from "@/assets/hero-jewellery.jpg";
+import heroImage from "../assets/hero-jewellery.jpg"
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -42,11 +42,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center gradient-hero overflow-hidden">
         <div className="absolute inset-0">
-          {/* <img
+          <img
             src={heroImage}
             alt="Handmade resin jewellery collection by The Crafted Soul featuring floral earrings and rings"
             className="w-full h-full object-cover opacity-30"
-          /> */}
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
         </div>
 

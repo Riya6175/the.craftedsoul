@@ -4,25 +4,19 @@ import { MessageCircle, Instagram } from "lucide-react";
 import {  getWhatsAppProductLink, INSTAGRAM_LINK } from "../data/product";
 
 // Image imports map
-import productEarrings1 from "../assets/product-earrings-1.jpg";
-import productPendant1 from "../assets/product-pendant-1.jpg";
-import productBracelet1 from "../assets/product-bracelet-1.jpg";
-import productKeychain1 from "../assets/product-keychain-1.jpg";
-import productHairclip1 from "../assets/product-hairclip-1.jpg";
-import productCustomEarrings from "../assets/product-custom-earrings.jpg";
+import blackOg from "../assets/resininsta/black_og.jpg";
+import necklace from "../assets/resininsta/necklace.jpeg";
+import productBracelet1 from "../assets/resininsta/bracelet_floaral.jpeg";
 
 export const imageMap= {
-  "product-earrings-1": productEarrings1,
-  "product-pendant-1": productPendant1,
-  "product-bracelet-1": productBracelet1,
-  "product-keychain-1": productKeychain1,
-  "product-hairclip-1": productHairclip1,
-  "product-custom-earrings": productCustomEarrings,
+  "black_og": blackOg,
+  "initial-pendant": necklace,
+  "bracelet-floral": productBracelet1,
 };
 
 
 const ProductCard = ({ product }) => {
-  const imgSrc = imageMap[product.images[0]] || productEarrings1;
+  const imgSrc = imageMap[product.images[0]] || blackOg;
 
   return (
     <div className="group card-hover bg-card rounded-xl overflow-hidden border border-border/50">
