@@ -7,11 +7,40 @@ import {  getWhatsAppProductLink, INSTAGRAM_LINK } from "../data/product";
 import blackOg from "../assets/resininsta/black_og.jpg";
 import necklace from "../assets/resininsta/necklace.jpeg";
 import productBracelet1 from "../assets/resininsta/bracelet_floaral.jpeg";
+import whiteFlower from "../assets/resininsta/white.jpeg";
+import peacock from "../assets/resininsta/peacock.jpg";
+import daisyEarrings from "../assets/resininsta/pink_flower.jpg";
+import rubyEarrings from "../assets/resininsta/pink_whitefloral.jpg";
+import yellow_pinkflower from "../assets/resininsta/yello_pinkflower.jpg";
+import greenGlass from "../assets/resininsta/green_glass.jpeg";
+import greenMarron from "../assets/resininsta/green_marron.jpg";
+import pinkBracelet from "../assets/resininsta/pink_bracelet.jpg";
+import redFloral from "../assets/resininsta/red_floral.jpg";
+import roseEarrings from "../assets/resininsta/rose_earrings.jpg";
+import black_earrings from "../assets/resininsta/black.jpeg";
+import blue_bells from "../assets/resininsta/blue_bells.jpg";
+import greenBracelet from "../assets/resininsta/green_bracelet.jpg";
+
+
 
 export const imageMap= {
   "black_og": blackOg,
   "initial-pendant": necklace,
   "bracelet-floral": productBracelet1,
+  "white-flower":whiteFlower,
+  "peacock": peacock,
+  "pink_flower":daisyEarrings,
+  "pink_whitefloral": rubyEarrings ,
+  "yello_pinkflower": yellow_pinkflower,
+  "green_glass": greenGlass,
+  "green_marron":greenMarron,
+  "pink_bracelet":pinkBracelet,
+  "red_floral":redFloral,
+  "rose_earrings":roseEarrings,
+  "black": black_earrings,
+  "blue_bells": blue_bells,
+  "green_bracelet":greenBracelet,
+
 };
 
 
